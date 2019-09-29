@@ -1,0 +1,43 @@
+body {
+  background-color: lightblue;
+
+}
+
+.demo-card-wide.mdl-card {
+  width: 512px;
+  margin: 0, auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+.demo-card-wide > .mdl-card__title {
+  color: #fff;
+  height: 176px;
+  background: url('../images/todo.jpg') center / cover;
+}
+.demo-card-wide > .mdl-card__menu {
+  color: #fff;
+}
+
+.overlay{
+    height:176px;
+    width: 100%;
+    position:absolute;
+    background:rgba(0,0,0,.5);
+  }
+
+.overlay h1 {
+      color: white;
+      text-shadow: 2px 2px #ff0000;
+      font-weight: bold;
+      margin: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      margin-right: -50%;
+      transform: translate(-50%, -50%) }
+form {
+  padding-left: 20px;
+}
