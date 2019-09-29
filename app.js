@@ -19,6 +19,9 @@ addToDoForm.addEventListener('submit', function(event){
     // set the input's type to checkbox
     checkbox.type = "checkbox";
 
+let scrolly = document.querySelector('li');
+
+scrolly.scrollTop = 1000;
 
 let deleteBtn = document.createElement('button');
 deleteBtn.textContent = "delete";
