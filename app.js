@@ -3,6 +3,10 @@ function onReady(){
   const newToDoText = document.getElementById('newToDoText');
   const toDoList = document.getElementById('toDoList');
 
+  window.onload = function() {
+     onReady();
+   };
+
 addToDoForm.addEventListener('submit', function(event){
     event.preventDefault();
 
@@ -19,9 +23,6 @@ addToDoForm.addEventListener('submit', function(event){
     // set the input's type to checkbox
     checkbox.type = "checkbox";
 
-let scrolly = document.querySelector('li');
-
-scrolly.scrollTop = 1000;
 
 let deleteBtn = document.createElement('button');
 deleteBtn.textContent = "delete";
